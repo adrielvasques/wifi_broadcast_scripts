@@ -1,11 +1,5 @@
 # wifi_broadcast_scripts
-Adição de parâmetro de controle de taxa e simplificação dos scripts
+Scripts that help me out with Wifibroadcast
 
-How to use:
-
-* Copy either systemd/wbcrxd or systemd/wbctxd to /etc/systemd/system
-* Enable service: sudo systemctl enable wbcrxd
-
-Now either the rx.sh or tx.sh scripts should start automatically at boot.
-
-Note that these scripts are expected to be under /home/pi/wifibroadcast_fpv_scripts . Otherwise you would need to adapt the wbcrxd and wbctx.
+Verify: [wifibroadcast_fpv_scripts](https://github.com/befinitiv/wifibroadcast_fpv_scripts)
+Verify: [https://github.com/befinitiv/wifibroadcast_fpv_scripts](https://befinitiv.wordpress.com/wifibroadcast-analog-like-transmission-of-live-video-data/)https://befinitiv.wordpress.com/wifibroadcast-analog-like-transmission-of-live-video-data/
